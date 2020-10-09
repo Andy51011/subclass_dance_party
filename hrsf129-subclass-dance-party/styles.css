@@ -1,0 +1,63 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+  background-image: url("src/Image/Sky.jpg");
+  background-size: 120%;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  position:absolute;
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(360deg);
+  }
+  to {
+      transform: rotate(0deg);
+  }
+}
+
+.cloud{
+  width: 150px;
+  height: auto;
+  content: url('src/Image/Cloud.gif');
+}
+.balloon{
+  width: 150px;
+  height: auto;
+  content: url('src/Image/Balloon.gif');
+}
+.cat{
+  width: 150px;
+  height: auto;
+  content: url('src/Image/Cat.gif');
+  animation: rotate 7s linear infinite;
+}
+
+.lineUpButton{
+  padding:5px 12px;
+  float:right;
+}
+
+.pairButton{
+  padding:5px 12px;
+  float:right;
+}
